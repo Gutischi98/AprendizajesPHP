@@ -1,20 +1,20 @@
 <?php
 
-    class EnlacesPaginas{
+class EnlacesPaginas
+{
 
-        static function enlacesPaginasModelo($enlacesModel){
+    static function enlacesPaginasModelo($enlacesModel)
+    {
 
-            if($enlacesModel == "ingreso" ||
-                $enlacesModel =="registro"||
-                $enlacesModel =="inicio"){
+        if (
+            $enlacesModel == "ingreso" ||
+            $enlacesModel == "registro" ||
+            $enlacesModel == "inicio"
+        ) {
 
-                    $modelo = "paginas/".$enlacesModel.".php";
-                }
-                
-            return $modelo;
+            $modelo = "paginas/" . $enlacesModel . ".php";
+        }
 
+        return $modelo;
     }
 }
-
-
-?>

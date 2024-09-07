@@ -32,7 +32,7 @@ echo "mi color favorito es $colores[2] <br>";
 
 
 //Variable tipo diccionario:
-$verduras = array("verdura1"=> "lechuga",  "verdura2"=>"pimiento",  "verdura3"=>"tomate");
+$verduras = array("verdura1" => "lechuga",  "verdura2" => "pimiento",  "verdura3" => "tomate");
 $verdurasString = implode(", ", $verduras); //Tambien  se puede utilizar el metodo implode() para transformar un array tipo diccionario en un string.
 echo "<br>";
 var_dump($verduras);
@@ -43,13 +43,9 @@ echo "<br>";
 
 
 //Objeto:
-$frutas = (object)["fruta1"=>"pera",  "fruta2"=>"manzana", "fruta3"=>"naranja",  "fruta4"=>"fresa"];
+$frutas = (object)["fruta1" => "pera",  "fruta2" => "manzana", "fruta3" => "naranja",  "fruta4" => "fresa"];
 echo "mi fruta favorita es: $frutas->fruta3 <br>";
 var_dump($colores);
 echo "<br>";
 
 //Metodo var_dump: muestra  la estructura de la variable, incluyendo el tipo de dato y el contenido.
-
-
-
-?>

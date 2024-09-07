@@ -8,7 +8,7 @@ if ($a > $b) {
     echo  "a es mayor que b<br>";
 } else if ($a == $b) {
     echo "a es igual que b<br>";
-}else{
+} else {
     echo "a es menor que b<br>";
 }
 
@@ -34,31 +34,30 @@ switch ($dia) {
 //while:
 $n = 1;
 
-while($n < 5){
+while ($n < 5) {
     $n++;
     echo "$n <nr>"; //si se coloca el echo antes de la variable, mostrara el estado actual  de la variable, si se coloca al final,  mostrara el valor final de la variable
 }
 
-echo"<br>";
+echo "<br>";
 
 
 
 //ciclo dowhile:
 $p = 5;
-do{
+do {
     echo $p;
     $p++;
-}
-while($p <= 5);
+} while ($p <= 5);
 
 
 
-echo"<br>";
-echo"<br>";
-echo"<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 
 //for:
-for($i = 0;  $i < 5; $i++){
+for ($i = 0; $i < 5; $i++) {
     echo "$i <br>";
 }
